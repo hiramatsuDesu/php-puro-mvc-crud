@@ -1,0 +1,71 @@
+1 login 3 usuarios
+
+codigo mysql
+CREATE TABLE usuario(id_usuario int(5) NOT NULL AUTO_INCREMENT, usuario VARCHAR(6), clave VARCHAR(100), nombre VARCHAR(100), apellido VARCHAR(100), mail VARCHAR(150), PRIMARY KEY(id_usuario));
+
+---------------------------------------------------------------
+3 Usuarios
+usuario:admin1
+clave:admin1
+
+usuario:admin2
+clave:admin2
+
+usuario:admin3
+clave:admin3
+
+--------------------------------------------------------------
+3 juegos
+cargadores base
+validar imagenes
+
+--------------------------------------------------------------------
+CONTENIDO
+------------------------------------------------------------------
+comando base de datos para la tabla contenidos
+
+CREATE TABLE contenido(id_contenido int(5) NOT NULL AUTO_INCREMENT, fecha DATE, titulo VARCHAR(200) NOT NULL, subtitulo VARCHAR(300), volanta VARCHAR(100), copete VARCHAR(1000), cuerpo VARCHAR(5000) NOT NULL, imagen BLOB, PRIMARY KEY(id_contenido));
+
+
+CREATE TABLE publicados(id_publicados int(5) NOT NULL AUTO_INCREMENT, id_contenido int(5) NOT NULL, fecha_publicacion DATE, titulo VARCHAR(200) NOT NULL, subtitulo VARCHAR(300), volanta VARCHAR(100), copete VARCHAR(1000), cuerpo VARCHAR(5000) NOT NULL, imagen BLOB, autor VARCHAR(100), PRIMARY KEY(id_publicados));
+
+
+<a href="contenido.php"><input type="button" value="Volver"></a>
+
+-------------------------------------------------------
+MAPA
+-----------------------------------------------------
+
+Contenido ->editar - eliminar - publicar
+Publicaciones -> Contenido publicado
+
+--------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

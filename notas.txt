@@ -1,0 +1,12 @@
+ruteo de codeigniter para acceder -
+
+$routes->get('ingresar', 'Usuarios::index');
+$routes->get('juegos', 'Juegos::index');
+$routes->get('cargarJuego', 'Juegos::cargar');
+$routes->post('guardar', 'Juegos::guardar');
+$routes->get('borrar/(:num)', 'Juegos::borrar/$1');
+$routes->post('consultar', 'Usuarios::consultar');
+$routes->get('editar/(:num)', 'Juegos::editar/$1');
+$routes->post('actualizar', 'Juegos::actualizar');
+$routes->get('intermedio', 'Usuarios::acceso');
+$routes->get('salir', 'Usuarios::salir');

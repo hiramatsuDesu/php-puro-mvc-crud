@@ -1,0 +1,5 @@
+usuario->admin1 clave->admin1
+usuario->admin2 clave->admin2
+usuario->admin3 clave->admin3
+
+inicio de sesion por base de datos

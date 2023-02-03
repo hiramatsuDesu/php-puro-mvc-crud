@@ -1,0 +1,4 @@
+usuario hardcodeado
+inicio de sesion por servidor
+No es remendado porque la sesion jamas se cierra
+Lo que se hace es recurrir a mecanismos similares al cierre de sesion pero una vez abierta este tipo sesion no se cierra

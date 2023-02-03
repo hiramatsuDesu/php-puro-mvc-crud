@@ -9,6 +9,11 @@
 
 </head>
 <body>
-    
+<h3>Iniciar Sesión</h3>
+
+<form action="session.php" method="POST">
+    <input type="Submit" value="Enviar">
+</form>  
+
 </body>
 </html>

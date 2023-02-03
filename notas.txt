@@ -1,2 +1,0 @@
-Inicio sesion usuario y 
-Registro con captchas

@@ -1,0 +1,30 @@
+app->config->Database:
+completamos:
+'hostname' => 'localhost',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'practica',
+
+guia:
+1) trae todos los juegos
+http://localhost/juegos/public/restjuegos
+
+2) por categoria 0 - 1 - 2
+http://localhost/juegos/public/restjuegos/0
+http://localhost/juegos/public/restjuegos/1
+http://localhost/juegos/public/restjuegos/2
+
+3) para cargar
+http://localhost/juegos/public/restjuegos#create
+postmaster o http client
+http request de tipo post
+
+4)para actualizar 
+http://localhost/juegos/public/restjuegos/3
+http request de tipo patch o put
+el id se pasa por parametro "/3"
+
+5)eliminar
+http://localhost/juegos/public/restjuegos/3
+http request de tipo delete y el id a eliminar 
+

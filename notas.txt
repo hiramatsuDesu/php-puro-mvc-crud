@@ -1,2 +1,2 @@
-sesion -> inicia sesion por servidor
-sesion -> inicia sesion por base de datos 
+inicio de sesion con captcha 
+registro de usuario con captcha
